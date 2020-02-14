@@ -1,0 +1,12 @@
+## Interface: 80300
+## Title: Corruption Name Tooltips
+## Notes: Shows the name and rank of corruption effects in tooltips to correlate with fan sites. 
+## Version: 1
+## Author: Elementurist-Thrall
+
+
+libs\AceAddon-3.0\AceAddon-3.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+
+Core.lua
+CorruptionData.lua
