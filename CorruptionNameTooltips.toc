@@ -1,7 +1,7 @@
 ## Interface: 80300
 ## Title: Corruption Name Tooltips
 ## Notes: Shows the name and rank of corruption effects in tooltips to correlate with fan sites. 
-## Version: 1
+## Version: 0.1.0
 ## Author: Elementurist-Thrall
 
 
