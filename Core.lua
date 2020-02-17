@@ -38,7 +38,7 @@ end
 local function OnTooltipSetItem(tooltip, ...)
 	local name, link = tooltip:GetItem();
 
-	if(IsCorruptedItem(link)) then
+	if(link and IsCorruptedItem(link)) then
 		local tokens = TokenizeItemLink(link);
 
 		for index=1, tokens[BONUS_TOKEN_OFFSET] do
@@ -67,4 +67,5 @@ end
 function addon:OnEnable()
   GameTooltip:HookScript("OnTooltipSetItem", OnTooltipSetItem)
   ItemRefTooltip:HookScript("OnTooltipSetItem", OnTooltipSetItem)
+  ShoppingTooltip1:HookScript("OnTooltipSetItem", OnTooltipSetItem)
 end
